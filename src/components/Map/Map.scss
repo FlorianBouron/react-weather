@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+$height-map: 500px;
+
+.react-weather-map {
+  height: $height-map;
+  .leaflet-container {
+    height: $height-map;
+  }
+}
